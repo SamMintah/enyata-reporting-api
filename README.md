@@ -12,7 +12,7 @@ This project is an incident reporting API for an insurance company. The API allo
 The following environment variables are required to run this project. 
 
 - `OPEN_WEATHER_MAP_API_KEY` - OpenWeatherMap API Key.
-- `DATABASE_URL` - URL of the database to be used. (postgres://postgres:<PASSWORD>@localhost:5432/<DB_NAME>)
+- `DATABASE_URL` - URL of the database to be used. (postgres://postgres:PASSWORD @localhost:5432/DB_NAME)
 
 
 ## Usage
