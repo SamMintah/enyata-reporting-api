@@ -1,0 +1,27 @@
+{
+  "name": "enyata-reporting-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamMintah/enyata-reporting-api.git"
+  },
+  "keywords": [],
+  "author": "Samuel Mintah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamMintah/enyata-reporting-api/issues"
+  },
+  "homepage": "https://github.com/SamMintah/enyata-reporting-api#readme",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
+  }
+}
