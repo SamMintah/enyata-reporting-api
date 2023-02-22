@@ -33,4 +33,36 @@ npm start
 | POST /insurance/api/incidents/add | Create a new incident report |
 | GET /insurance/api/incidents | Get list of all the incident reports |
 
- 
+
+
+## Request Body
+
+```
+{
+  "client_id": 123,
+  "incident_desc": "description of incident",
+  "city": "city name",
+  "country": "country name"
+}
+
+```
+
+## Response
+
+```
+{
+  "message": "Incident report received",
+  "incident": {
+    "client_id": 123,
+    "incident_desc": "description of incident",
+    "city": "city name",
+    "country": "country name",
+    "date": "2023-02-20T12:00:00.000Z",
+    "weather_report": {
+      "temperature": 25,
+      "conditions": "sunny"
+    }
+  }
+}
+
+```

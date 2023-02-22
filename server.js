@@ -8,7 +8,7 @@ app.use(express.json());
 
 //routes 
 app.get('/', (req, res) => {
-  res.send("Hello welcome to enyata insurance incident reporting api")
+  res.send("Hello welcome to enyata insurance incident reporting api  go to /insurance/api/incidents to view all incidents")
 })
 app.use('/insurance/api/incidents',incidentRoutes)
 
